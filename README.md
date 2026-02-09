@@ -54,6 +54,36 @@ Now, the Stack becomes empty, which means we have visited all the nodes, and our
  <li>If Not Visited, add it to the STACK. Else Call The Function Again Until No more nodes needs to be visited.</li>
 </ol></B>
 
+## PROGRAM:
+```
+from collections import deque
+from collections import defaultdict
+
+def dfs(graph, start, visited, path):
+    path.append(start)
+    visited[start] = True
+    for neighbour in graph[start]:
+        if visited[neighbour] == False:
+            dfs(graph, neighbour, visited, path)
+            visited[neighbour] = True
+    return path
+
+graph = defaultdict(list)
+n, e = map(int, input().split())
+for i in range(e):
+    u, v = map(str, input().split())
+    graph[u].append(v)
+    graph[v].append(u)
+# print(graph)
+if '0' in graph:
+    start = '0'
+else:
+    start = 'A'
+visited = defaultdict(bool)
+path = []
+traversedpath = dfs(graph, start, visited, path)
+print(traversedpath)
+```
 <hr>
 <h3>Sample Input</h3>
 <hr>
@@ -71,6 +101,7 @@ F H <BR>
 <h3>Sample Output</h3>
 <hr>
 ['A', 'B', 'E', 'D', 'C', 'G', 'F', 'H']
+<img width="550" height="262" alt="Screenshot 2026-02-09 131656" src="https://github.com/user-attachments/assets/0b94aa3c-0ccc-49a5-8975-f08f529e7d24" />
 
 <hr>
 
@@ -87,6 +118,7 @@ F H <BR>
 <h3>Sample Output</h3>
 <hr>
 ['0', '1', '2', '3', '4']
+![Uploading Screenshot 2026-02-09 131758.png…]()
 
 <hr>
 <h3>Result:</h3>
