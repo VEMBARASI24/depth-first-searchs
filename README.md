@@ -101,10 +101,11 @@ F H <BR>
 <h3>Sample Output</h3>
 <hr>
 ['A', 'B', 'E', 'D', 'C', 'G', 'F', 'H']
-```
-<img width="550" height="262" alt="Screenshot 2026-02-09 131656" src="https://github.com/user-attachments/assets/0b94aa3c-0ccc-49a5-8975-f08f529e7d24" />
-```
+
 <hr>
+
+<img width="550" height="262" alt="Screenshot 2026-02-09 131656" src="https://github.com/user-attachments/assets/0b94aa3c-0ccc-49a5-8975-f08f529e7d24" />
+
 
 <hr>
 <h3>Sample Input</h3>
@@ -119,10 +120,11 @@ F H <BR>
 <h3>Sample Output</h3>
 <hr>
 ['0', '1', '2', '3', '4']
-```
-<img width="398" height="185" alt="image" src="https://github.com/user-attachments/assets/6926186b-c34f-4860-8a82-dd97355c2165" />
-```
+
+
 <hr>
+<img width="388" height="182" alt="image" src="https://github.com/user-attachments/assets/806fd167-803a-49b9-ac5b-6baad72b46ab" />
+
 <h3>Result:</h3>
 <hr>
 <p>Thus,a Graph was constructed and implementation of Depth First Search for the same graph was done successfully.</p>
