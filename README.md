@@ -1,4 +1,4 @@
-<h1>ExpNo 2 : Implement Depth First Search Traversal of a Graph</h1> 
+<img width="460" height="192" alt="Screenshot 2026-02-09 131758" src="https://github.com/user-attachments/assets/853967ba-13b3-4eae-8370-8706c201eaf7" /><h1>ExpNo 2 : Implement Depth First Search Traversal of a Graph</h1> 
 <h3>Name:VEMBARASI.A.R </h3>
 <h3>Register Number: 212224220120   </h3>
 <H3>Aim:</H3>
@@ -101,6 +101,7 @@ F H <BR>
 <h3>Sample Output</h3>
 <hr>
 ['A', 'B', 'E', 'D', 'C', 'G', 'F', 'H']
+
 <img width="550" height="262" alt="Screenshot 2026-02-09 131656" src="https://github.com/user-attachments/assets/0b94aa3c-0ccc-49a5-8975-f08f529e7d24" />
 
 <hr>
@@ -118,7 +119,10 @@ F H <BR>
 <h3>Sample Output</h3>
 <hr>
 ['0', '1', '2', '3', '4']
-![Uploading Screenshot 2026-02-09 131758.png…]()
+
+<img width="398" height="185" alt="image" src="https://github.com/user-attachments/assets/6926186b-c34f-4860-8a82-dd97355c2165" />
+
+
 
 <hr>
 <h3>Result:</h3>
